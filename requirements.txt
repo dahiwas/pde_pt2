@@ -1,0 +1,31 @@
+# FastAPI and web server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data processing
+pyspark==3.5.0
+pandas==2.0.3
+
+# File handling
+python-multipart==0.0.6
+numpy==1.24.3
+
+# Utilities
+python-dateutil==2.8.2
+requests==2.31.0
+
+# Logging
+structlog==23.2.0
+
+# Testing (optional)
+pytest==7.4.0
+httpx==0.25.2
+
+# ClickHouse driver
+clickhouse-driver==0.2.6
+
+# AIOfiles
+aiofiles==23.2.1
+
+# Added from the code block
+psutil==5.9.6 
